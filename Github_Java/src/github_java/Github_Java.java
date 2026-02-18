@@ -1,20 +1,21 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package github_java;
 
-/**
- *
- * @author deanb
- */
+import java.utilScanner;
+        
 public class Github_Java {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        String myName = "Dean";
+        char initial = 'D';
+        int myAge = 20;
+        double myExactAge = 40;
+        
+        System.out.println("Hello my name is " + myName );
+        
+        System.out.println("I am " + myAge + " Years Old ");
     }
     
 }
